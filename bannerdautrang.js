@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='https://www.facebook.com/hemanvat57/' target='_blank'><img src='https://lh4.googleusercontent.com/-SIbeDMTLmVA/V5gchjyp2HI/AAAAAAAADZY/VfELSHldm7gApHnFm1vNfH2gYRBpwFsMgCL0B/w508-h533-no/11132042_10202855862238150_1510477235_o.jpg' width='500px'/><br/> Đặc sản Quy Nhơn tại Hồ Chí Minh </a>. Thơm ngon, chỉ 60k/hủ. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='https://www.facebook.com/hemanvat57/' target='_blank'><img src='https://lh4.googleusercontent.com/-SIbeDMTLmVA/V5gchjyp2HI/AAAAAAAADZY/VfELSHldm7gApHnFm1vNfH2gYRBpwFsMgCL0B/w508-h533-no/11132042_10202855862238150_1510477235_o.jpg' width='500px'/><br/> Đặc sản Quy Nhơn tại Hồ Chí Minh</a>. Thơm ngon, chỉ 60k/hủ. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
