@@ -109,15 +109,15 @@
     }//orbit plugin call
 })(jQuery);
         
-$(window).load(function() {
+jQuery(window).load(function() {
 		if(document.cookie.indexOf("adf") == -1)
 		{
 			document.cookie = "adfpopunder1=adf";
 			var divpopup = document.createElement("div");
-			$(divpopup).attr('id', 'myModal');
-			$(divpopup).attr('class', 'linhnguyen-modal');
-			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='https://www.facebook.com/hemanvat57/' target='_blank'><img src='https://lh4.googleusercontent.com/-SIbeDMTLmVA/V5gchjyp2HI/AAAAAAAADZY/VfELSHldm7gApHnFm1vNfH2gYRBpwFsMgCL0B/w508-h533-no/11132042_10202855862238150_1510477235_o.jpg' width='500px'/><br/> ĐẶC SẢN QUY NHƠN TẠI HỒ CHÍ MINH </a>. THƠM NGON, CHẤT LƯỢNG. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
-			$('#myModal').linhnguyen($('#myModal').data());
+			jQuery(divpopup).attr('id', 'myModal');
+			jQuery(divpopup).attr('class', 'linhnguyen-modal');
+			jQuery( "body" ).append(divpopup);
+			jQuery("#myModal").html("<a href='https://www.facebook.com/hemanvat57/' target='_blank'><img src='https://lh4.googleusercontent.com/-SIbeDMTLmVA/V5gchjyp2HI/AAAAAAAADZY/VfELSHldm7gApHnFm1vNfH2gYRBpwFsMgCL0B/w508-h533-no/11132042_10202855862238150_1510477235_o.jpg' width='500px'/><br/> ĐẶC SẢN QUY NHƠN TẠI HỒ CHÍ MINH </a>. THƠM NGON, CHẤT LƯỢNG. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
