@@ -1,5 +1,5 @@
 
-	var url_popup = 'https://www.facebook.com/grillandcheer/';
+	var url_popup = 'http://www.grillandcheer.com/';
 
       //<![CDATA[
 	  // var url_ppp = 'http://bit.ly/1KmPNYe';
