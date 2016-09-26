@@ -117,7 +117,7 @@ jQuery(window).load(function() {
 			jQuery(divpopup).attr('id', 'myModal');
 			jQuery(divpopup).attr('class', 'linhnguyen-modal');
 			jQuery( "body" ).append(divpopup);
-			jQuery("#myModal").html("<a href='http://www.ruttienmat.com/' width='500px'/><br/> RÚT TIỀN MẶT TỪ THẺ TÍN DỤNG </a>. HOTLINE 1900 636989 - 0903 677 375 <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			jQuery("#myModal").html("<a href='http://www.ruttienmat.com/' target='_blank'><img src='https://lh3.googleusercontent.com/-PfYQr4zbpzs/V-joIN8KINI/AAAAAAAAADU/uwlzsmREJqAxkPiJYtWJUiXvmy8wVntEQCL0B/w580-h400-no/580x400.jpg' width='500px'/><br/>RÚT TIỀN MẶT TỪ THẺ TÍN DỤNG </a>. HOTLINE: 1900 636989 - 0903 677 375 <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
