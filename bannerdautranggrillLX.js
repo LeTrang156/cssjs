@@ -117,7 +117,7 @@ jQuery(window).load(function() {
 			jQuery(divpopup).attr('id', 'myModal');
 			jQuery(divpopup).attr('class', 'linhnguyen-modal');
 			jQuery( "body" ).append(divpopup);
-			jQuery("#myModal").html("<a href='https://www.facebook.com/grillandcheer' target='_blank'><img src='https://lh3.googleusercontent.com/qJCvzsC4VSrlLo9-xwVwKgXlj9V9_NgAZ5tyiEDtShKm5xE34X8dF4GsZHKVw-ccYayRho-m=w1366-h768-rw-no' width='500px'/><br/> Buffet nướng và Lẫu Hàn - Nhật </a>. HOTLINE 08 37305373 <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			jQuery("#myModal").html("<a href='https://www.facebook.com/grillandcheer' target='_blank'><img src='https://lh3.googleusercontent.com/qJCvzsC4VSrlLo9-xwVwKgXlj9V9_NgAZ5tyiEDtShKm5xE34X8dF4GsZHKVw-ccYayRho-m=w1366-h768-rw-no' width='500px'/><br/> Buffet nướng và Lẫu Hàn - Nhật </a>. HOTLINE 076 3959 698 <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
