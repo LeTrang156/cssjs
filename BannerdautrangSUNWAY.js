@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://pacificvietnam.vn/' target='_blank'><img src='https://lh3.googleusercontent.com/-HOLVQMFENV0/Wi9DQyjVJ6I/AAAAAAAAABc/fcNxvGnVxbEfMiyWGwXyigkGVTKhNK_ZACJoC/w530-h530-n-rw/logo%2BSUNWAY_Banner%2Bpopup%2B%25C4%2591%25E1%25BA%25A7u%2Btrang.jpg' width='500px'/><br/> Cung cấp xe bồn bê tông FUSO toàn quốc</a>. Hotline 0126 806 9366(Ms Trang) - 0937 779 177 (Mr Khiêm) - 090 887 9499 (Mr Toàn)  <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://saigonsunway.com.vn/' target='_blank'><img src='https://lh3.googleusercontent.com/-HOLVQMFENV0/Wi9DQyjVJ6I/AAAAAAAAABc/fcNxvGnVxbEfMiyWGwXyigkGVTKhNK_ZACJoC/w530-h530-n-rw/logo%2BSUNWAY_Banner%2Bpopup%2B%25C4%2591%25E1%25BA%25A7u%2Btrang.jpg' width='500px'/><br/> Cung cấp xe bồn bê tông FUSO toàn quốc</a>. Hotline 0903 67 73 75 (Mr Khiêm) - 090 887 9499 (Mr Toàn)  <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
