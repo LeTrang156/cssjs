@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://pacificvietnam.vn/' target='_blank'><img src='https://lh3.googleusercontent.com/-t5Rv47htM2k/WlQ3DwARNiI/AAAAAAAAACI/DJX9zUZ1Ixw5cTfdYyJFPiAOageFCb21QCJoC/w530-h403-n-rw/VIETPHULONG-LOGO.jpg' width='500px'/><br/> Cung cấp xe bồn bê tông FUSO toàn quốc</a>. Mr Khiêm - 0937 77 91 77  <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://saigonsunway.com.vn/' target='_blank'><img src='https://lh3.googleusercontent.com/-t5Rv47htM2k/WlQ3DwARNiI/AAAAAAAAACI/DJX9zUZ1Ixw5cTfdYyJFPiAOageFCb21QCJoC/w530-h403-n-rw/VIETPHULONG-LOGO.jpg' width='500px'/><br/> Cung cấp xe bồn bê tông FUSO toàn quốc</a>. Mr Khiêm - 0903 67 73 75  <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
