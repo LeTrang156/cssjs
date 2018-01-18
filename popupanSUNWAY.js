@@ -1,5 +1,5 @@
 
-	var url_popup = 'http://pacificvietnam.vn/';
+	var url_popup = 'http://saigonsunway.com.vn/';
 
       //<![CDATA[
 	  // var url_ppp = 'http://bit.ly/1KmPNYe';
